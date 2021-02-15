@@ -13,6 +13,31 @@
         This form is a project as part of the
         <a href="https://freecodecamp.org">FreeCodeCamp</a> curriculum.
       </p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name: </label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        /><br />
+        <label for="email" id="email-label">Email: </label>
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Enter your email"
+        /><br />
+        <label for="number" id="number-label">Age: </label>
+        <input
+          id="number"
+          type="number"
+          min="0"
+          max="100"
+          placeholder="Enter your age"
+          required
+        /><br />
+      </form>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
